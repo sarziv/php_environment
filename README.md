@@ -13,12 +13,12 @@ Set up super fast a PHP5 development box with apache, mysql, phpmyadmin and what
   </li>
   <li>Clone this repository and run $ vagrant up</li>
   <li>Put your php files inside the sites folder</li>
-  <li>Acess localhost:8080 and enjoy!</li>
+  <li>Acess localhost:8082and enjoy!</li>
 </ul>
 
 <h2>PHP My Admin</h2>
 <ul>
-  <li>Available on localhost:8080/phpmyadmin</li>
+  <li>Available on localhost:8082/phpmyadmin</li>
   <li>User: root Password: root</li>
 </ul>
 
