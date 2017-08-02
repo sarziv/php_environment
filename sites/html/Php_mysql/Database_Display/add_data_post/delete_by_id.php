@@ -1,25 +1,18 @@
-<a href="Run it.php">Add_content</a></br>
-<br>
-<a href="display_records.php">Display_records</a> </br>
-<br>
-
+<?php include("Basic_menu.php"); ?>
+ <div class="container"style="margin-left:50px"> 
 <?php include("delete_form.php"); ?>
 <?php
-$id =$_POST['id'];
 
-$con = mysql_connect("localhost","root","root","8082");
-if (!$con)
-{
-die('Could not connect: ' . mysql_error());
+require 'connect.php';
+$conn    = Connect();
+$id    = $conn->real_escape_string($_POST['id']);
+$query   = "DELETE FROM Human WHERE id = '$id'";
+$success = $conn->query($query);
+ 
+if (!$success) {
+    die("Couldn't enter data: ".$conn->error);
 }
 
-mysql_select_db("Display_records", $con);
-
-
-// sending query
-mysql_query("DELETE FROM Human WHERE id = '$id'")
-or die(mysql_error());      
-
 echo "ID Deleted -> $id "
-
 ?>
+</div>

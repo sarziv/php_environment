@@ -1,3 +1,5 @@
+<?php include("Basic_menu.php"); ?>
+<?php include("form.php"); ?>
 <?php
  
 require 'connect.php';
@@ -16,6 +18,5 @@ if (!$success) {
  
 echo "Thank You For Contacting Us <br>";
  
+ $conn->close();
 ?>
-<br>
-<a href="display_records.php">Display_records</a> </br>

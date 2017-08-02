@@ -1,7 +1,6 @@
+<?php include("Basic_menu.php"); ?>
+ <div class="container"style="margin-left:50px">
+ <?php include("delete_form.php"); ?>
+</div> 
 
-<a href="Run it.php">Add_record</a> </br>
-<br>
-<a href="display_records.php">Display_records</a> </br>
-<br>
-<?php include("delete_form.php"); ?>
 
