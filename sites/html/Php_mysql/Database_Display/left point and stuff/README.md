@@ -1,6 +1,7 @@
 ## Synopsis
 
 #Database created with PHPmyAdmin
+##Database preview
 ![Screenshot](database designer.png)
 
 ## Code Example
@@ -17,7 +18,7 @@ And yes i know it should be Right ear.
 ## Motivation
 
 MySql & Sql query 
-Database normalization ->
-######1NF 
-######2NF 
-######3NF
+##Database normalization
+####1NF 
+####2NF 
+####3NF
