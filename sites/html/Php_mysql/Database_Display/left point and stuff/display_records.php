@@ -10,8 +10,12 @@
       die('Could not connect: ' . mysql_error());
    }
    
-   $sql = 'SELECT id, name, age, height, weight FROM Human';
-   mysql_select_db('Display_records');
+   $sql = "SELECT `Head`.`name`, `Ear`.`left_Ear`, `Ear`.`light_Ear`, `color`.`color`\n"
+    . "FROM `Head`\n"
+    . " INNER JOIN `HumanBody`.`Ear` ON `Head`.`id` = `Ear`.`id_Head` \n"
+    . " INNER JOIN `HumanBody`.`color` ON `Ear`.`color_id` = `color`.`id` \n"
+    . " LIMIT 0, 30 ";
+   mysql_select_db('HumanBody');
    $retval = mysql_query( $sql, $conn );
    
    if(! $retval ) {
@@ -19,11 +23,10 @@
    }
    
    while($row = mysql_fetch_array($retval, MYSQL_ASSOC)) {
-      echo "ID : {$row['id']}  <br> ".
-         "NAME : {$row['name']} <br> ".
-         "AGE : {$row['age']} <br> ".
-		 "HEIGHT : {$row['height']}  <br> ".
-		 "WIGHT : {$row['weight']}  <br> ".
+      echo "Name : {$row['name']}  <br> ".
+         "L_ear : {$row['left_Ear']} <br> ".
+         "R_ear : {$row['light_Ear']} <br> ".
+		 "Color: {$row['color']}  <br> ".
          "--------------------------------<br>";
    }
    
