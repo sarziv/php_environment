@@ -1,10 +1,10 @@
 ## Synopsis
 
 Simple MySql Test stuff.
-#add
-#delete by id
-#search by id
-#view
+####add
+####delete by id
+####search by id
+####view
 Added Simple bootstrap nav.
 
 Spited into easy 
@@ -67,6 +67,7 @@ if (!$success) {
   $conn->close();
 
 ```
+![Screenshot](simpleInterface.png)
 
 ## Motivation
 
