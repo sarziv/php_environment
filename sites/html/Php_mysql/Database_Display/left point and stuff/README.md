@@ -1,7 +1,7 @@
 ## Synopsis
 
 Database created with PHPmyAdmin,
-![Screenshot](database designer.png)
+![Screenshot](databasedesigner.png)
 
 ## Code Example
 ```
@@ -13,7 +13,7 @@ Database created with PHPmyAdmin,
 ```
 And yes i know it should be Right ear.
 ## MySql
-![Screenshot](LEFT vs Right Outer Join in SQL.png)
+![Screenshot](SQLJoints.png)
 ## Motivation
 
 MySql & Sql query 
