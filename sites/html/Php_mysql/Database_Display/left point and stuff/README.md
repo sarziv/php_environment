@@ -1,13 +1,7 @@
 ## Synopsis
-
 Database created with PHPmyAdmin
+## Database preview
 ![Screenshot](databasedesigner.png)
-
-
-#Database created with PHPmyAdmin
-##Database preview
-![Screenshot](databasedesigner.png)
-
 
 ## Code Example
 ```
@@ -20,11 +14,12 @@ Database created with PHPmyAdmin
 And yes i know it should be Right ear.
 ## MySql
 ![Screenshot](SQLJoints.png)
-## Motivation
+## Display from Query
 
-MySql & Sql query 
-Display from Query
+
+
 ![Screenshot](FileExample.png)
 ## PHPmyAdmin Fields
-inner and foreign key constraint INNODB
+
+###### Inner and foreign key constraint INNODB
 ![Screenshot](phpmyadminfields.png)
