@@ -1,6 +1,6 @@
 ## Synopsis
 
-Database created with PHPmyAdmin,
+#Database created with PHPmyAdmin
 ![Screenshot](database designer.png)
 
 ## Code Example
