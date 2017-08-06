@@ -1,14 +1,12 @@
 ## Synopsis
 
-<<<<<<< HEAD
 Database created with PHPmyAdmin
 ![Screenshot](databasedesigner.png)
 
-=======
->>>>>>> origin/master
+
 #Database created with PHPmyAdmin
 ##Database preview
-![Screenshot](database designer.png)
+![Screenshot](databasedesigner.png)
 
 
 ## Code Example
@@ -25,7 +23,8 @@ And yes i know it should be Right ear.
 ## Motivation
 
 MySql & Sql query 
-##Database normalization
-####1NF 
-####2NF 
-####3NF
+Display from Query
+![Screenshot](FileExample.png)
+## PHPmyAdmin Fields
+inner and foreign key constraint INNODB
+![Screenshot](phpmyadminfields.png)
