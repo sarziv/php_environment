@@ -1,8 +1,11 @@
 ## Synopsis
 
+<<<<<<< HEAD
 Database created with PHPmyAdmin
 ![Screenshot](databasedesigner.png)
 
+=======
+>>>>>>> origin/master
 #Database created with PHPmyAdmin
 ##Database preview
 ![Screenshot](database designer.png)
