@@ -15,10 +15,10 @@ RIGHT OUTER JOIN Supplier AS o ON a.city = o.city
 ![Screenshot](datamodel.png)
 
 ## Phpmyadmin
-![Screenshot](/Assets/phpmyadmin.png)
+![Screenshot](phpmyadmin.png)
 This still have repeating information at id -> 3.
 
 ## Output
-![Screenshot](../Assets/conPrinted.png)
+![Screenshot](conPrinted.png)
 
 -firstname-lastname-city-companyname-
