@@ -22,6 +22,7 @@ if ($result->num_rows > 0) {
         echo 
 		"ID: " . $row["id"]. "<br>".
 		"Name: " . $row["name"]. "<br>".
+		"Age: " . $row["age"]. "<br>".
 		"Height: " . $row["height"]. "<br>".
 		"Weight " . $row["weight"]. "<br>" .
 		"---------------------------------" . "<br>";
