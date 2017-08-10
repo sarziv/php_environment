@@ -16,5 +16,5 @@ LIMIT 0 , 30
 This still have repeating information at id -> 3.
 
 ## Output
-![Screenshot](conPrinted.png)
+![Screenshot](conPrint.png)
 
