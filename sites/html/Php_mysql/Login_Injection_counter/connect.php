@@ -5,7 +5,7 @@ function Connect()
  $dbhost = "localhost";
  $dbuser = "root";
  $dbpass = "root";
- $dbname = "Display_records";
+ $dbname = "Login_database";
  $port = "8082";
  
  // Create connection
