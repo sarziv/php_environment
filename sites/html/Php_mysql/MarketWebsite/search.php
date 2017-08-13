@@ -1,6 +1,7 @@
 <html>
+<?php include 'head.html';?>
 <body>
-		<?php include 'home/head.html';?>
+		
 <div id="wrapper">
 
 <!-- Sidebar -->
@@ -10,16 +11,24 @@
 <div id="page-content-wrapper">
             <div class="container-fluid">
                 <div class="row">
-				
 		<?php include 'button/buttonMenu.html';?>
-		<?php include 'search/cont_search_1.html';?>
-              
-						
+			<div class="padd" >
+		<?php include 'content/cont_search_1.html';?>
+			</div>
                 </div>
             </div>
         </div>
     </div>
     <!-- /#wrapper -->
-	<?php include 'home/script.html';?>
+	<script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
 </body>
 </html>

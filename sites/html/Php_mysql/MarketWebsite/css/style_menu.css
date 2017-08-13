@@ -33,3 +33,17 @@ body {
   line-height: 1.33;
   border-radius: 35px;
 }
+.menuBar {
+	height:40px;
+	width:auto;
+	border-bottom:2px solid black;
+}
+.padd {
+	padding-left:10px;
+	
+}
+.cpStyle {
+	float:right;
+	position:absolute;
+	
+}
