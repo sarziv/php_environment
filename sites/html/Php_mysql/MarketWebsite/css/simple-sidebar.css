@@ -101,6 +101,7 @@
 }
 
 @media(min-width:768px) {
+
     #wrapper {
         padding-left: 0;
     }
@@ -127,3 +128,4 @@
         margin-right: 0;
     }
 }
+/* Button Style Change*/
