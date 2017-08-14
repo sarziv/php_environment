@@ -8,6 +8,8 @@
 
 	require 'connect.php';
 	$conn    = Connect();
+	$email    = $conn->real_escape_string($_POST['name']);
+	$password   = $conn->real_escape_string($_POST['age']);
 	$query   = 'SELECT id, name, age, height, weight FROM Human';
 	$success = $conn->query($query);
 if (!$success) {
