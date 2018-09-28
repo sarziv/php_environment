@@ -312,7 +312,12 @@ $(function(){
 						itemsLength = 'Empty';
 					}
 
-					var folder = $('<li class="folders"><a href="'+ f.path +'" title="'+ f.path +'" class="folders">'+icon+'<span class="name">' + name + '</span> <span class="details">' + itemsLength + '</span></a></li>');
+					var folder = $('<li class="folders">' +
+						'<a href="'+ f.path +'" title="'+ f.path +'" class="folders">'+icon+'' +
+						'<span class="name">' + name + '' +
+						'</span> <span class="details">' + itemsLength + '</span>' +
+						'</a>' +
+                        '</li>');
 					folder.appendTo(fileList);
 				});
 
@@ -392,6 +397,7 @@ $(function(){
 			var i = parseInt(Math.floor(Math.log(bytes) / Math.log(1024)));
 			return Math.round(bytes / Math.pow(1024, i), 2) + ' ' + sizes[i];
 		}
+
 
 	});
 });
