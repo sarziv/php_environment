@@ -12,12 +12,27 @@
 	<link href="assets/css/styles.css" rel="stylesheet"/>
 
 </head>
-<body>
+<body onload="myFunction()">
 <?php
 include("./modals/uploadModal.php");
+include("./modals/folderModal.php");
 ?>
+<!-- Loading animation -->
+<div class="col-12" id="beforeLoad">
+<div class="sk-cube-grid" >
+    <div class="sk-cube sk-cube1"></div>
+    <div class="sk-cube sk-cube2"></div>
+    <div class="sk-cube sk-cube3"></div>
+    <div class="sk-cube sk-cube4"></div>
+    <div class="sk-cube sk-cube5"></div>
+    <div class="sk-cube sk-cube6"></div>
+    <div class="sk-cube sk-cube7"></div>
+    <div class="sk-cube sk-cube8"></div>
+    <div class="sk-cube sk-cube9"></div>
+</div>
+</div>
 
-
+<div  style="display:none;" id="afterLoad">
 	<div class="filemanager">
 		<!-- Seach button -->
 	<div class="search">
@@ -26,25 +41,24 @@ include("./modals/uploadModal.php");
 	</div>
 		<!-- upload button -->
 		<div class="upload">
-		<button class="uploadbutton" id="myBtn"><img src="assets/upload.png"></button>
+		<button class="uploadbutton" id="myBtnUpload"><img src="assets/upload.png"></button>
 		</div>
 
 		<!-- new folder button -->
 		<div class="newfolder">
-			<img src="assets/new-add-folder.png" on onclick="">
+            <button class="folderButton" id="myBtnFolder"><img src="assets/new-add-folder.png"></button>
 		</div>
 
 		<div class="breadcrumbs"></div>
 
 		<ul class="data"></ul>
-
 		<div class="nothingfound">
 			<div class="nofiles"></div>
 			<span>No files here.</span>
 		</div>
 
 	</div>
-
+</div>
 	<!-- Include our script files -->
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
